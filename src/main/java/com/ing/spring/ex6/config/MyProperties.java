@@ -13,7 +13,6 @@ import org.springframework.validation.annotation.Validated;
 public class MyProperties {
     private String username;
     private String email;
-    @Max(5)
     private int age;
     private String password;
 }
